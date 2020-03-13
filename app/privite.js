@@ -6,5 +6,5 @@ var Test = /** @class */ (function () {
     }
     return Test;
 }());
-var t = new Test("sz", 2);
+var t = new Test('sz', 2);
 console.log('123', t);
