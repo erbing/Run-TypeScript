@@ -1,9 +1,10 @@
 "use strict";
-var Color;
-(function (Color) {
-    Color[Color["Red"] = 0] = "Red";
-    Color[Color["Green"] = 10] = "Green";
-    Color[Color["Blue"] = 11] = "Blue";
-})(Color || (Color = {}));
-var c = Color.Blue;
-console.log(c); // red
+var HttpStutas;
+(function (HttpStutas) {
+    HttpStutas[HttpStutas["success"] = 200] = "success";
+    HttpStutas[HttpStutas["error"] = 404] = "error";
+    HttpStutas[HttpStutas["noRequestId"] = 10010] = "noRequestId";
+    HttpStutas[HttpStutas["noRequestName"] = 10011] = "noRequestName";
+})(HttpStutas || (HttpStutas = {}));
+var res = HttpStutas.success;
+console.log(res);

@@ -1,8 +1,9 @@
-enum Color {
-	Red,
-	Green = 10,
-	Blue,
+enum HttpStutas {
+	success = 200,
+	error = 404,
+	noRequestId = 10010,
+	noRequestName = 10011,
 }
 
-let c: Color = Color.Blue;
-console.log(c); // red
+let res = HttpStutas.success;
+console.log(res);
