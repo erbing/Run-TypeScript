@@ -5,5 +5,8 @@ enum HttpStutas {
 	noRequestName = 10011,
 }
 
+console.log(HttpStutas);
 let res = HttpStutas.success;
-console.log(res);
+console.log(res); // 200
+let res2 = HttpStutas[200];
+console.log(res2); // success
