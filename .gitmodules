@@ -1,3 +1,0 @@
-[submodule "Run-gitSubmodule"]
-	path = Run-gitSubmodule
-	url = git@github.com:erbing/Run-gitSubmodule.git
