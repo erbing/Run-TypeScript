@@ -1,2 +1,3 @@
-# wx
-wx-config-for-devlop
+# Demo for how to use git submodule
+
+
