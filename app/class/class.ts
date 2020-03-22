@@ -11,4 +11,4 @@ class Persons {
 }
 
 let p11 = new Persons('za', 123);
-console.log(p11.getName()); // za今年已经123岁了
+console.log(p11.getName()); //  za今年已经123岁了
