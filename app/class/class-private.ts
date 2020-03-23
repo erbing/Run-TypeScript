@@ -8,5 +8,7 @@ class Animal2 {
 	}
 }
 
-var a = new Animal2('private').name;
+var a = new Animal2('private');
 console.log('---a---', a);
+a.name = '123';
+new Animal2('private').name = '432';
