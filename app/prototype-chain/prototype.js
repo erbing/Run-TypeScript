@@ -16,7 +16,4 @@ var SubClass = function() {
 };
 
 SubClass.prototype = new SuperClass('superClass');
-
 var sub = new SubClass();
-
-console.log('--sub--', sub);
